@@ -1,6 +1,4 @@
-require 'node'
-
-describe Node do
+describe Puzzles::Node do
   subject { described_class.new 10, 'Example node' }
 
   its(:id) { should eq 10 }

@@ -1,8 +1,6 @@
-require 'graph_loader'
-
-describe GraphLoader do
-  let(:nodes_fixture) { File.expand_path('../fixtures/nodes.csv',  __FILE__) }
-  let(:edges_fixture) { File.expand_path('../fixtures/edges.csv',  __FILE__) }
+describe Puzzles::GraphLoader do
+  let(:nodes_fixture) { File.expand_path('../../fixtures/nodes.csv',  __FILE__) }
+  let(:edges_fixture) { File.expand_path('../../fixtures/edges.csv',  __FILE__) }
 
   describe '#load' do
     subject(:graph) { described_class.new(nodes_fixture, edges_fixture).load }

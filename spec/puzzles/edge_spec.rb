@@ -1,6 +1,4 @@
-require 'edge'
-
-describe Edge do
+describe Puzzles::Edge do
   subject { described_class.new 10, 20, 30.5 }
 
   its(:node1_id) { should eq 10 }
