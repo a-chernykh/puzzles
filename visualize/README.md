@@ -16,4 +16,4 @@ Notes:
 
 * Connected densely with `Physics`, and more surprisingly - `Chemistry`, `Biology`, `Ecology` and `Environment Sustainability` areas
 
-![Image](../blob/master/visualize/images/cs.png?raw=true)
+[![Computer Science](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/cs.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/cs.pdf)
