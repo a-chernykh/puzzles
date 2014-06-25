@@ -1,3 +1,5 @@
+require 'benchmark'
+
 module Puzzles
   module Algorithms
     # https://github.com/brianstorti/ruby-graph-algorithms/tree/master/dijkstra adapted for undirected graphs

@@ -11,6 +11,14 @@ task :most_related do
   end
 end
 
+task :least_related do
+  graph = load_graph
+  least_related = Puzzles::LeastRelatedNodes.new(graph).get(10).first(10)
+  least_related.each do |pair|
+    puts [ pair[0].name, 'and', pair[1].name ].join(' ')
+  end
+end
+
 private
 
 def load_graph

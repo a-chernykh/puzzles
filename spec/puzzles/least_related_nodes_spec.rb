@@ -4,7 +4,7 @@ module Puzzles
     let(:least_related_nodes) { described_class.new graph }
 
     describe '#get' do
-      subject { least_related_nodes.get.to_a }
+      subject { least_related_nodes.get(10).to_a }
 
       context 'no edges' do
         it { should be_empty }
