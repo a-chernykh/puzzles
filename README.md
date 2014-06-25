@@ -38,6 +38,10 @@ Advertising and Tourism Studies
 Advertising and Direito
 ```
 
+## Visualization
+
+[Located here](https://github.com/andreychernih/puzzles/tree/master/visualize)
+
 ## Tests
 
 Run `rspec` to execute test suite.
