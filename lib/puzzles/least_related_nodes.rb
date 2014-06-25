@@ -1,5 +1,4 @@
 require 'pry'
-require 'parallel'
 require 'benchmark'
 
 module Puzzles
