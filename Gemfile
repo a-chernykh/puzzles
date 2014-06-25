@@ -1,8 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'pry'
-gem 'pry-byebug'
-gem 'pry-stack_explorer'
+group :development do
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+
+  gem 'guard-rspec', require: false
+  gem 'terminal-notifier-guard'
+end
 
 gem 'rake'
 

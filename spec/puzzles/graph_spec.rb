@@ -75,5 +75,26 @@ module Puzzles
 
       it { should eq [edge1, edge2] }
     end
+
+    describe '#adjacent_edges' do
+      let(:node1) { Node.new 1, 'Node #1' }
+
+      let(:edge1) { Edge.new 1, 2, 3.5 }
+      let(:edge2) { Edge.new 1, 3, 4.5 }
+      let(:edge3) { Edge.new 2, 3, 4.5 }
+      let(:edge4) { Edge.new 3, 1, 4.5 }
+
+      before do
+        graph.add_node node1
+        graph.add_edge edge1
+        graph.add_edge edge2
+        graph.add_edge edge3
+        graph.add_edge edge4
+      end
+
+      subject { graph.adjacent_edges(node1) }
+
+      it { should eq [edge1, edge2, edge4] }
+    end
   end
 end

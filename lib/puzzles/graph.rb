@@ -20,6 +20,10 @@ module Puzzles
       edges.freeze
     end
 
+    def adjacent_edges(node)
+      get_edges.select { |e| e.node1_id == node.id || e.node2_id == node.id }
+    end
+
     private
 
     def edges

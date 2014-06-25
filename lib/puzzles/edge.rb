@@ -7,5 +7,9 @@ module Puzzles
       @node2_id = node2_id
       @weight = weight
     end
+
+    def to_s
+      "Edge #{@node1_id} - #{@node2_id} (#{weight})"
+    end
   end
 end
