@@ -12,8 +12,49 @@ We can see that there's 2 big groups in the system: Computer Science (which incl
 
 ### Computer Science
 
-Notes:
+[![Computer Science](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/cs.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/cs.pdf)
 
+Notes:
 * Connected densely with `Physics`, and more surprisingly - `Chemistry`, `Biology`, `Ecology` and `Environment Sustainability` areas
 
-[![Computer Science](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/cs.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/cs.pdf)
+### Education
+
+[![Education](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/education.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/education.pdf)
+
+### Archaeology and Architecture
+
+[![Archaeology and Architecture](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/archaeology_architecture.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/archaeology_architecture.pdf)
+
+Notes:
+* `Design` sub-cluster
+
+### Communication
+
+[![Communication](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/communication.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/communication.pdf)
+
+### Marketing, Management, Finance
+
+[![Marketing, Management, Finance](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/marketing_management_finance.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/marketing_management_finance.pdf)
+
+### Psychology
+
+[![Psychology](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/psychology.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/psychology.pdf)
+
+Notes:
+* Health / Medicine is also attached here. Probably did not have enough related nodes / connections in data-set
+
+### Languages
+
+[![Psychology](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/languages.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/languages.pdf)
+
+### Human rights
+
+[![Psychology](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/human_rights.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/human_rights.pdf)
+
+### Non-English names
+
+[![Psychology](https://raw.githubusercontent.com/andreychernih/puzzles/master/visualize/images/non_english_names.png)](https://github.com/andreychernih/puzzles/raw/master/visualize/images/non_english_names.pdf)
+
+Notes: probably they should be merged with the English counterparts
+
+[Other clusters](https://github.com/andreychernih/puzzles/tree/master/visualize/images)
