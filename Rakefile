@@ -7,7 +7,7 @@ task :most_related do
   graph = load_graph
   most_related = Puzzles::MostRelatedNodes.new(graph).get.first(10)
   most_related.each do |pair|
-    puts [pair[0].name, 'and', pair[1].name, '*' * pair[2].to_i ].join ' '
+    puts '%-60s %s' % [ [pair[0].name, 'and', pair[1].name].join(' '), '*' * pair[2].to_i ]
   end
 end
 
